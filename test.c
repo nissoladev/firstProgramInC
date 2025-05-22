@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     int age;
@@ -8,6 +9,9 @@ int main() {
     int day, month, year;
     double num1, num2;
     float soma;
+    char color[30];
+    char pluralNoun[30];
+    char celebrity[30];
     /*
     printf("Enter your age: \n");
     scanf("%d", &age);
@@ -36,8 +40,7 @@ int main() {
 
     printf("Enter your date birth in the format: (yyyy/mm/dd)\n");
     scanf("%d/%d/%d", &year, &month, &day);
-    printf("Your birthday date is: %d/%d/%d\n", year, month, day);
-    */
+printf("Your birthday date is: %d/%d/%d\n", year, month, day);
 
     printf("Basic Calculator...\n");
     printf("Enter first number:\n");
@@ -46,5 +49,20 @@ int main() {
     scanf("%lf", &num2);
     soma = (num1 + num2);
     printf("Answer: %f", soma);
+    */
+
+    printf("MadLibs Game...\n\n");
+    printf("Enter a color: ");
+    scanf("%s", color);
+    printf("Enter a plural-noun: ");
+    scanf("%s", pluralNoun);
+    getchar();
+    printf("Enter a celebrity:\n");
+    fgets(celebrity, 30, stdin);
+    celebrity[strcspn(celebrity, "\n")] = 0;
+
+    printf("Roses are %s\n", color);
+    printf("%s are blue\n",pluralNoun);
+    printf("I love %s\n", celebrity);
     return 0;
 }
