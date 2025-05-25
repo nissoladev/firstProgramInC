@@ -1,7 +1,48 @@
 #include <stdio.h>
 #include <string.h>
+#include <tgmath.h>
+
+/*
+double cubes(double number) {
+    double result = number * number * number;
+    return result;
+}
+*/
+
+/*
+double cubes2(double number2) {
+    double result2 = (number2 * number2 * number2);
+    return result2;
+    printf("Here");
+}
+*/
+
+double cubes3(double number3);
+
+/*
+double num;
+double cube(double num) {
+    printf("Enter a number:");
+    scanf("%lf", &num);
+    printf("%lf", pow(num, 3));
+}
+*/
 
 int main() {
+    double cubes3(double number3); {
+        double result3 = (number3 * number3 * number3);
+        return result3;
+    }
+
+    printf("cubes3: %f\n", cubes3(8));
+
+    /*
+    printf("%f", cubes2(6));
+    */
+/*
+    printf("Answer: %f", cubes(3));
+*/
+    /*
     int age;
     double gpa;
     char grade;
@@ -25,7 +66,6 @@ int main() {
     scanf(" %c", &grade);
     printf("Your grade is: %c\n\n", grade);
 
-
     printf("Enter your name: \n");
     fgets(name, 25, stdin);
     printf("Your name is: %s", name);
@@ -40,7 +80,7 @@ int main() {
 
     printf("Enter your date birth in the format: (yyyy/mm/dd)\n");
     scanf("%d/%d/%d", &year, &month, &day);
-printf("Your birthday date is: %d/%d/%d\n", year, month, day);
+    printf("Your birthday date is: %d/%d/%d\n", year, month, day);
 
     printf("Basic Calculator...\n");
     printf("Enter first number:\n");
@@ -51,6 +91,7 @@ printf("Your birthday date is: %d/%d/%d\n", year, month, day);
     printf("Answer: %f", soma);
     */
 
+    /*
     printf("MadLibs Game...\n\n");
     printf("Enter a color: ");
     scanf("%s", color);
@@ -64,5 +105,37 @@ printf("Your birthday date is: %d/%d/%d\n", year, month, day);
     printf("Roses are %s\n", color);
     printf("%s are blue\n",pluralNoun);
     printf("I love %s\n", celebrity);
+
+    int luckyNumbers[] = {4, 8, 15, 16, 23, 42};
+    luckyNumbers[2] = 99;
+    printf("%d", luckyNumbers[2]);
+
+    int luckyNumber[1];
+    luckyNumber[0] = 99;
+    luckyNumber[1] = 200;
+    printf("%d", luckyNumber[0]);
+
+    char phrase[] = "Giraffe Academy";
+    printf("%s", phrase);
+    printf("Top\n");
+    sayHello();
+    printf("Bottom");
+    */
+
+    /*
+    sayHi("Max Verstappen", 25);
+    sayHi("Jenson Button", 40);
+    sayHi("Charles Leclerc", 23);
+    */
+
     return 0;
 }
+
+/*
+void sayHello() {
+    printf("Hello User\n");
+}
+
+void sayHi(char name[], int age) {
+    printf("Hello %s, you are %d\n", name, age);
+}*/
