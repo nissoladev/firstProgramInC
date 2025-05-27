@@ -1,0 +1,61 @@
+[33mcommit 39412c0f42257672671db6b17161a65482605718[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Guilherme Nissola <nissoladev@gmail.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Linha adicional para commit
+
+[33mcommit ea4905d9fac259a63fd49c92e39829fddcd6f907[m
+Author: nissoladev <guilhermenissolaof@outlook.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Uso de If, Elif, Else
+    
+    Protótipo de uma calculadora básica (ajustar para usar if ou switch devido não ser possível usando o método proposto
+
+[33mcommit 7578cacd12d74803d902c5c2eeef2b214243b775[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Guilherme Nissola <nissoladev@gmail.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Uso de If, Elif, Else
+    
+    Protótipo de uma calculadora básica (ajustar para usar if ou switch devido não ser possível usando o método proposto
+
+[33mcommit f549ed27c71a0c608e7485a077f1092f4a04d3c7[m
+Author: Guilherme Nissola <nissoladev@gmail.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Implementação de novas funcionalidades:
+    
+    Prototipagem e uso de funções com callback e sem callback, além de parâmetros passados dentro da função.;
+    
+    Uso de arrays
+
+[33mcommit ad96417273cf89d69712cd9cf661bc7fe860efc2[m
+Author: Guilherme Nissola <nissoladev@gmail.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Implementação do jogo MadLibs
+
+[33mcommit d3195208a47cc7a310900597970ebcc31f8254b7[m
+Author: Guilherme Nissola <nissoladev@gmail.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Novos recursos aplicados:
+    
+    Usos distintos de fgets
+    
+    Inserção de funcionalidade para o usuário digitar a data de nascimento e ser exibido no console
+    
+    Criação de calculadora básica
+
+[33mcommit 80cdc9d432602ddeb6f4feb60fbe3c95321fb547[m
+Author: Guilherme Nissola <nissoladev@gmail.com>
+Commit: Guilherme Nissola <nissoladev@gmail.com>
+
+    Primeiro commit: estrutura inicial do projeto em C
+
+[33mcommit 6673b03a4b68c34cb10a7b23a9d5880be6991f1f[m
+Author: nissoladev <guilhermenissolaof@outlook.com>
+Commit: GitHub <noreply@github.com>
+
+    Initial commit
