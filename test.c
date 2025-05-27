@@ -2,6 +2,29 @@
 #include <string.h>
 #include <tgmath.h>
 
+int max(int num1, int num2, int num3) {
+    int result;
+    if (num1 >= num2 && num1 >= num3) {
+        result = num1;
+    } else if (num2 >= num1 && num2 >= num3)
+        result = num2;
+    else {
+        result = num3;
+    }
+
+    return result;
+}
+
+
+/*int max(int num1, int num2) {
+    int result;
+    if (num1 > num2) {
+        result = num1;
+    } else {
+        result = num2;
+    }
+    return result;
+}*/
 /*
 double cubes(double number) {
     double result = number * number * number;
@@ -17,7 +40,7 @@ double cubes2(double number2) {
 }
 */
 
-double cubes3(double number3);
+/*double cubes3(double number3);*/
 
 /*
 double num;
@@ -29,13 +52,28 @@ double cube(double num) {
 */
 
 int main() {
-    double cubes3(double number3); {
+
+    if (3 < 2 || 2 > 5) {
+        printf("True");
+    } else {
+        printf("False\n");
+    };
+
+    if (!(3 < 2)) {
+        printf("True");
+    };
+
+
+    /*printf("%d", max(10, 2, 3));*/
+    /*printf("%d", max(39, 39));*/
+    /*
+        double cubes3(double number3); {
         double result3 = (number3 * number3 * number3);
         return result3;
     }
 
     printf("cubes3: %f\n", cubes3(8));
-
+    */
     /*
     printf("%f", cubes2(6));
     */
